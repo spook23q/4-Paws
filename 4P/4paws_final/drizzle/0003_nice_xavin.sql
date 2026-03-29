@@ -1,0 +1,1 @@
+ALTER TABLE `bookings` ADD `payment_intent_id` varchar(255);

@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1768794849382,
+      "tag": "0000_milky_scourge",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1768997276586,
+      "tag": "0001_amazing_the_captain",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1769020306366,
+      "tag": "0002_dazzling_giant_girl",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1769295937111,
+      "tag": "0003_nice_xavin",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1770106490438,
+      "tag": "0004_nappy_wither",
+      "breakpoints": true
+    }
+  ]
+}

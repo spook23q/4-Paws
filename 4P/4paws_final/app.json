@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "6c0ed28e-240d-4e53-af6d-263740d3d37e"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.4pawscatsitting.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.kay4paws.apptemplate"
+    }
+  }
+}
