@@ -1,0 +1,9 @@
+{
+  "query": "CREATE TABLE IF NOT EXISTS notifications (\n  id BIGINT AUTO_INCREMENT PRIMARY KEY,\n  user_id BIGINT NOT NULL,\n  type ENUM('booking_request', 'booking_confirmed', 'booking_declined', 'booking_completed', 'booking_cancelled', 'new_message', 'new_review', 'general') NOT NULL,\n  title VARCHAR(255) NOT NULL,\n  body TEXT NOT NULL,\n  data TEXT,\n  is_read BOOLEAN NOT NULL DEFAULT FALSE,\n  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,\n  INDEX notif_user_idx (user_id),\n  INDEX notif_user_read_idx (user_id, is_read),\n  INDEX notif_created_at_idx (created_at),\n  FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE\n);",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3x57m6Dk121nXW6.root --database Nz8norEy9cHW8BGGws8Uod --execute CREATE TABLE IF NOT EXISTS notifications (\n  id BIGINT AUTO_INCREMENT PRIMARY KEY,\n  user_id BIGINT NOT NULL,\n  type ENUM('booking_request', 'booking_confirmed', 'booking_declined', 'booking_completed', 'booking_cancelled', 'new_message', 'new_review', 'general') NOT NULL,\n  title VARCHAR(255) NOT NULL,\n  body TEXT NOT NULL,\n  data TEXT,\n  is_read BOOLEAN NOT NULL DEFAULT FALSE,\n  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,\n  INDEX notif_user_idx (user_id),\n  INDEX notif_user_read_idx (user_id, is_read),\n  INDEX notif_created_at_idx (created_at),\n  FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE\n);",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 1932
+}

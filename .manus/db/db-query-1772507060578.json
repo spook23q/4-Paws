@@ -1,0 +1,9 @@
+{
+  "query": "ALTER TABLE bookings ADD COLUMN booking_fee_payment_id VARCHAR(255) DEFAULT NULL; ALTER TABLE bookings ADD COLUMN booking_fee_paid BOOLEAN NOT NULL DEFAULT FALSE;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3x57m6Dk121nXW6.root --database Nz8norEy9cHW8BGGws8Uod --execute ALTER TABLE bookings ADD COLUMN booking_fee_payment_id VARCHAR(255) DEFAULT NULL; ALTER TABLE bookings ADD COLUMN booking_fee_paid BOOLEAN NOT NULL DEFAULT FALSE;",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 5235
+}

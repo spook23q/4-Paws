@@ -1,0 +1,15 @@
+{
+  "query": "SELECT COUNT(*) as total, SUM(CASE WHEN open_id IS NULL OR open_id = '' THEN 1 ELSE 0 END) as missing_openid, SUM(CASE WHEN open_id LIKE 'local:%' THEN 1 ELSE 0 END) as local_openid FROM users;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3x57m6Dk121nXW6.root --database Nz8norEy9cHW8BGGws8Uod --execute SELECT COUNT(*) as total, SUM(CASE WHEN open_id IS NULL OR open_id = '' THEN 1 ELSE 0 END) as missing_openid, SUM(CASE WHEN open_id LIKE 'local:%' THEN 1 ELSE 0 END) as local_openid FROM users;",
+  "rows": [
+    {
+      "total": "37",
+      "missing_openid": "0",
+      "local_openid": "37"
+    }
+  ],
+  "messages": [],
+  "stdout": "total\tmissing_openid\tlocal_openid\n37\t0\t37\n",
+  "stderr": "",
+  "execution_time_ms": 1558
+}

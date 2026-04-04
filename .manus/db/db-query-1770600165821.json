@@ -1,0 +1,9 @@
+{
+  "query": "CREATE TABLE IF NOT EXISTS `favourites` (\n  `id` bigint AUTO_INCREMENT NOT NULL,\n  `user_id` bigint NOT NULL,\n  `sitter_id` bigint NOT NULL,\n  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,\n  CONSTRAINT `favourites_id` PRIMARY KEY(`id`),\n  CONSTRAINT `fk_fav_user` FOREIGN KEY (`user_id`) REFERENCES `users`(`id`) ON DELETE CASCADE,\n  CONSTRAINT `fk_fav_sitter` FOREIGN KEY (`sitter_id`) REFERENCES `users`(`id`) ON DELETE CASCADE\n);\nCREATE INDEX `fav_user_idx` ON `favourites` (`user_id`);\nCREATE INDEX `fav_sitter_idx` ON `favourites` (`sitter_id`);\nCREATE UNIQUE INDEX `fav_unique_idx` ON `favourites` (`user_id`, `sitter_id`);",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3x57m6Dk121nXW6.root --database Nz8norEy9cHW8BGGws8Uod --execute CREATE TABLE IF NOT EXISTS `favourites` (\n  `id` bigint AUTO_INCREMENT NOT NULL,\n  `user_id` bigint NOT NULL,\n  `sitter_id` bigint NOT NULL,\n  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,\n  CONSTRAINT `favourites_id` PRIMARY KEY(`id`),\n  CONSTRAINT `fk_fav_user` FOREIGN KEY (`user_id`) REFERENCES `users`(`id`) ON DELETE CASCADE,\n  CONSTRAINT `fk_fav_sitter` FOREIGN KEY (`sitter_id`) REFERENCES `users`(`id`) ON DELETE CASCADE\n);\nCREATE INDEX `fav_user_idx` ON `favourites` (`user_id`);\nCREATE INDEX `fav_sitter_idx` ON `favourites` (`sitter_id`);\nCREATE UNIQUE INDEX `fav_unique_idx` ON `favourites` (`user_id`, `sitter_id`);",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 3909
+}

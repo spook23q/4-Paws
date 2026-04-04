@@ -1,0 +1,150 @@
+{
+  "query": "SELECT id, email, name, role, open_id FROM users LIMIT 20;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3x57m6Dk121nXW6.root --database Nz8norEy9cHW8BGGws8Uod --execute SELECT id, email, name, role, open_id FROM users LIMIT 20;",
+  "rows": [
+    {
+      "id": "1",
+      "email": "kay.epspainting@gmail.com",
+      "name": "kay ali",
+      "role": "owner",
+      "open_id": "local:1"
+    },
+    {
+      "id": "9",
+      "email": "alice.smith@example.com",
+      "name": "Alice Smith",
+      "role": "owner",
+      "open_id": "local:9"
+    },
+    {
+      "id": "10",
+      "email": "bob.jones@example.com",
+      "name": "Bob Jones",
+      "role": "owner",
+      "open_id": "local:10"
+    },
+    {
+      "id": "11",
+      "email": "emma.wilson@example.com",
+      "name": "Emma Wilson",
+      "role": "sitter",
+      "open_id": "local:11"
+    },
+    {
+      "id": "12",
+      "email": "james.brown@example.com",
+      "name": "James Brown",
+      "role": "sitter",
+      "open_id": "local:12"
+    },
+    {
+      "id": "30001",
+      "email": "emma.wilson@4paws.com",
+      "name": "Emma Wilson",
+      "role": "sitter",
+      "open_id": "local:30001"
+    },
+    {
+      "id": "30002",
+      "email": "james.chen@4paws.com",
+      "name": "James Chen",
+      "role": "sitter",
+      "open_id": "local:30002"
+    },
+    {
+      "id": "30003",
+      "email": "sophie.martin@4paws.com",
+      "name": "Sophie Martin",
+      "role": "sitter",
+      "open_id": "local:30003"
+    },
+    {
+      "id": "30004",
+      "email": "oliver.brown@4paws.com",
+      "name": "Oliver Brown",
+      "role": "sitter",
+      "open_id": "local:30004"
+    },
+    {
+      "id": "30005",
+      "email": "isabella.taylor@4paws.com",
+      "name": "Isabella Taylor",
+      "role": "sitter",
+      "open_id": "local:30005"
+    },
+    {
+      "id": "30006",
+      "email": "lucas.anderson@4paws.com",
+      "name": "Lucas Anderson",
+      "role": "sitter",
+      "open_id": "local:30006"
+    },
+    {
+      "id": "30007",
+      "email": "mia.thompson@4paws.com",
+      "name": "Mia Thompson",
+      "role": "sitter",
+      "open_id": "local:30007"
+    },
+    {
+      "id": "30008",
+      "email": "noah.garcia@4paws.com",
+      "name": "Noah Garcia",
+      "role": "sitter",
+      "open_id": "local:30008"
+    },
+    {
+      "id": "30009",
+      "email": "ava.rodriguez@4paws.com",
+      "name": "Ava Rodriguez",
+      "role": "sitter",
+      "open_id": "local:30009"
+    },
+    {
+      "id": "30010",
+      "email": "liam.martinez@4paws.com",
+      "name": "Liam Martinez",
+      "role": "sitter",
+      "open_id": "local:30010"
+    },
+    {
+      "id": "30011",
+      "email": "sarah.johnson@example.com",
+      "name": "Sarah Johnson",
+      "role": "owner",
+      "open_id": "local:30011"
+    },
+    {
+      "id": "30012",
+      "email": "michael.davis@example.com",
+      "name": "Michael Davis",
+      "role": "owner",
+      "open_id": "local:30012"
+    },
+    {
+      "id": "30013",
+      "email": "emily.white@example.com",
+      "name": "Emily White",
+      "role": "owner",
+      "open_id": "local:30013"
+    },
+    {
+      "id": "30014",
+      "email": "daniel.lee@example.com",
+      "name": "Daniel Lee",
+      "role": "owner",
+      "open_id": "local:30014"
+    },
+    {
+      "id": "30015",
+      "email": "jessica.moore@example.com",
+      "name": "Jessica Moore",
+      "role": "owner",
+      "open_id": "local:30015"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\temail\tname\trole\topen_id\n1\tkay.epspainting@gmail.com\tkay ali\towner\tlocal:1\n9\talice.smith@example.com\tAlice Smith\towner\tlocal:9\n10\tbob.jones@example.com\tBob Jones\towner\tlocal:10\n11\temma.wilson@example.com\tEmma Wilson\tsitter\tlocal:11\n12\tjames.brown@example.com\tJames Brown\tsitter\tlocal:12\n30001\temma.wilson@4paws.com\tEmma Wilson\tsitter\tlocal:30001\n30002\tjames.chen@4paws.com\tJames Chen\tsitter\tlocal:30002\n30003\tsophie.martin@4paws.com\tSophie Martin\tsitter\tlocal:30003\n30004\toliver.brown@4paws.com\tOliver Brown\tsitter\tlocal:30004\n30005\tisabella.taylor@4paws.com\tIsabella Taylor\tsitter\tlocal:30005\n30006\tlucas.anderson@4paws.com\tLucas Anderson\tsitter\tlocal:30006\n30007\tmia.thompson@4paws.com\tMia Thompson\tsitter\tlocal:30007\n30008\tnoah.garcia@4paws.com\tNoah Garcia\tsitter\tlocal:30008\n30009\tava.rodriguez@4paws.com\tAva Rodriguez\tsitter\tlocal:30009\n30010\tliam.martinez@4paws.com\tLiam Martinez\tsitter\tlocal:30010\n30011\tsarah.johnson@example.com\tSarah Johnson\towner\tlocal:30011\n30012\tmichael.davis@example.com\tMichael Davis\towner\tlocal:30012\n30013\temily.white@example.com\tEmily White\towner\tlocal:30013\n30014\tdaniel.lee@example.com\tDaniel Lee\towner\tlocal:30014\n30015\tjessica.moore@example.com\tJessica Moore\towner\tlocal:30015\n",
+  "stderr": "",
+  "execution_time_ms": 1643
+}

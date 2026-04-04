@@ -1,0 +1,34 @@
+{
+  "query": "SHOW TABLES;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3x57m6Dk121nXW6.root --database Nz8norEy9cHW8BGGws8Uod --execute SHOW TABLES;",
+  "rows": [
+    {
+      "Tables_in_Nz8norEy9cHW8BGGws8Uod": "bookings"
+    },
+    {
+      "Tables_in_Nz8norEy9cHW8BGGws8Uod": "cats"
+    },
+    {
+      "Tables_in_Nz8norEy9cHW8BGGws8Uod": "conversations"
+    },
+    {
+      "Tables_in_Nz8norEy9cHW8BGGws8Uod": "messages"
+    },
+    {
+      "Tables_in_Nz8norEy9cHW8BGGws8Uod": "owner_profiles"
+    },
+    {
+      "Tables_in_Nz8norEy9cHW8BGGws8Uod": "reviews"
+    },
+    {
+      "Tables_in_Nz8norEy9cHW8BGGws8Uod": "sitter_profiles"
+    },
+    {
+      "Tables_in_Nz8norEy9cHW8BGGws8Uod": "users"
+    }
+  ],
+  "messages": [],
+  "stdout": "Tables_in_Nz8norEy9cHW8BGGws8Uod\nbookings\ncats\nconversations\nmessages\nowner_profiles\nreviews\nsitter_profiles\nusers\n",
+  "stderr": "",
+  "execution_time_ms": 1557
+}

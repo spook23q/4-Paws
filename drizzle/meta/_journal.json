@@ -1,0 +1,90 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1768794849382,
+      "tag": "0000_milky_scourge",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1768997276586,
+      "tag": "0001_amazing_the_captain",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1769020306366,
+      "tag": "0002_dazzling_giant_girl",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1769295937111,
+      "tag": "0003_nice_xavin",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1770106490438,
+      "tag": "0004_nappy_wither",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1770600139485,
+      "tag": "0005_motionless_wasp",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1770601154150,
+      "tag": "0006_mysterious_lilith",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1770779269575,
+      "tag": "0007_redundant_reptil",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "5",
+      "when": 1771387799841,
+      "tag": "0008_light_blue_shield",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "5",
+      "when": 1771390327178,
+      "tag": "0009_volatile_moonstone",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "5",
+      "when": 1772271403875,
+      "tag": "0010_living_selene",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "5",
+      "when": 1772507356506,
+      "tag": "0011_dusty_the_leader",
+      "breakpoints": true
+    }
+  ]
+}

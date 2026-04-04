@@ -1,0 +1,30 @@
+{
+  "query": "SELECT id, open_id FROM users WHERE open_id IS NOT NULL AND open_id != '' LIMIT 5;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3x57m6Dk121nXW6.root --database Nz8norEy9cHW8BGGws8Uod --execute SELECT id, open_id FROM users WHERE open_id IS NOT NULL AND open_id != '' LIMIT 5;",
+  "rows": [
+    {
+      "id": "1",
+      "open_id": "local:1"
+    },
+    {
+      "id": "10",
+      "open_id": "local:10"
+    },
+    {
+      "id": "11",
+      "open_id": "local:11"
+    },
+    {
+      "id": "12",
+      "open_id": "local:12"
+    },
+    {
+      "id": "120001",
+      "open_id": "local:120001"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\topen_id\n1\tlocal:1\n10\tlocal:10\n11\tlocal:11\n12\tlocal:12\n120001\tlocal:120001\n",
+  "stderr": "",
+  "execution_time_ms": 1554
+}

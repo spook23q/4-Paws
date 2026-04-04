@@ -1,0 +1,9 @@
+{
+  "query": "CREATE TABLE IF NOT EXISTS sitter_availability (\n  id BIGINT AUTO_INCREMENT PRIMARY KEY,\n  sitter_id BIGINT NOT NULL,\n  date VARCHAR(10) NOT NULL,\n  status ENUM('available', 'unavailable') NOT NULL DEFAULT 'available',\n  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,\n  FOREIGN KEY (sitter_id) REFERENCES users(id) ON DELETE CASCADE,\n  INDEX avail_sitter_idx (sitter_id),\n  INDEX avail_date_idx (date),\n  INDEX avail_sitter_date_idx (sitter_id, date),\n  UNIQUE INDEX avail_unique_idx (sitter_id, date)\n);",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3x57m6Dk121nXW6.root --database Nz8norEy9cHW8BGGws8Uod --execute CREATE TABLE IF NOT EXISTS sitter_availability (\n  id BIGINT AUTO_INCREMENT PRIMARY KEY,\n  sitter_id BIGINT NOT NULL,\n  date VARCHAR(10) NOT NULL,\n  status ENUM('available', 'unavailable') NOT NULL DEFAULT 'available',\n  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,\n  FOREIGN KEY (sitter_id) REFERENCES users(id) ON DELETE CASCADE,\n  INDEX avail_sitter_idx (sitter_id),\n  INDEX avail_date_idx (date),\n  INDEX avail_sitter_date_idx (sitter_id, date),\n  UNIQUE INDEX avail_unique_idx (sitter_id, date)\n);",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 3128
+}

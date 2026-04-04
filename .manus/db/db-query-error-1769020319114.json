@@ -1,0 +1,8 @@
+{
+  "query": "ALTER TABLE users ADD COLUMN push_token TEXT AFTER login_method;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3x57m6Dk121nXW6.root --database Nz8norEy9cHW8BGGws8Uod --execute ALTER TABLE users ADD COLUMN push_token TEXT AFTER login_method;",
+  "returncode": 1,
+  "logs": [
+    "ERROR 1060 (42S21) at line 1: Duplicate column name 'push_token'"
+  ]
+}
